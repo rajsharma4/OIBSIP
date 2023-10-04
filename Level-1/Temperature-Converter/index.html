@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <div class="container">
+    <div class="temperature-converter">
+        <div class="mobile">
+            <p>9:41</p>
+        <div class="status">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAJpJREFUSEvtltEJgDAMRK+bOIpu4ipOopvoKI4iJ+mPVKkkbUUS6I8gz7yzIQGNKjTiwsHVzJdW3QNYpZsBwBY7c7A2Y6pl7XKqqE5BHKz+qzsAo+S5PORprjo3Twe/yph5zpLnJGOvimoNRJXxv8HW3WWrdjDvnbWF82ZeNxBryPcz5pTiYcXxZv0sqVq7+mS/X3rLvP2QZuADPxOPH42BOgwAAAAASUVORK5CYII="/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZBJREFUSEvtlOtNxDAQhOcqgU6ABqAEoAM6ADqgA6AEaACoBOgEfTlPtLeyOcdC5M9ZihLFXs/Ow95opbFZCVcH4H9TvlfqY0lXko4k8e3nq3TKm+dD0nv5/pXEPuA7SZcFaIkaNPEsifrqaAFTcFupMDPe30UBlkUVYlmzgQzMBo+STkO1i586JLQlJ5U9zmJ9BAbsrQLYkgsQhn3OApEJVIvr7iVBYD7HTH6GShZEwBYTl9gCfOWbgNkCN+AmJ+aRsX1lIhbSNcVLBqxo3mp47+vM2JvCLC+uhSVLjKfU1rJRtaqW6lrA7E3Lz9h4lJb/qIeKO6MFbL8B2kljp940T1AdrGjftEXrHJt17hQ2zPm4xHPNrTUlNgULxs7MPLnv5oqb5PNdI9+tUA9wvsXsM0fHd3d3qNztUuB8vluhmo9NKxM9wNTCuvfKhH30uordC5yLuVRuys+Hcll0Bn67bAT4XNJLQrmQ9LoEeQQYtvk2annf7GUEeDXGsFjF4yVW/qnUB+AhBUZSPQSUi34AnM5hH9uJs3AAAAAASUVORK5CYII="/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAJ9JREFUSEvtltENgCAMRI9NdBNHcRN1Et1EN9FRzCVoEIhfhSbaJvzw0UevbQ4HpXBKXBi4mvImdQOgF9T7ALDk8sVS7wAIl4wJwBgnDMGsdJYk+lysun0D81VDATBTJkMcXnwSzD4zNn8eEpSs+OrgPWi1pDZwtR6rDdf/9vi1YprDqmES3DXCO0E4LZEmkYT9QAq5okmd+RnU0lptqk9HTh0fK9xyoQAAAABJRU5ErkJggg=="/>
+        </div>
+    </div>
+    <h2 class="title">Temperature Converter</h2>
+    <div class="degree-type">
+        <div class="degree-field">
+            <label for="degree">Degrees</label>
+            <input type="number" name="degree" id="degree">
+    </div>  
+    <div class="temp-field">
+        <label for="temp-type">Type</label>
+        <select name="temperatures" id="temp-type" autocomplete="on">
+            <option value="fahrenhiet" id="fahrenhiet">Fahrenhiet</option>
+            <option value="kelvin" id="kelvin">Kelvin</option>
+        </select>
+    </div>
+    </div>
+  
+   <div class="result">
+    <span class="result-heading">Result</span>
+    <h2 class="celsius-value" id="celsius">1</h2>
+   </div>
+   <button class="btn" id="btn">Convert</button>
+</div>
+ </div>
+ <script src="./script.js">  
+ </script>
+</body>
+</html>

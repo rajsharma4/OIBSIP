@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+       
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center ;
+       background: linear-gradient(135deg, rgb(69, 74, 132), rgba(197, 110, 178, 0.662), rgba(17, 193, 149, 0.634) );
+   }
+   .temperature-converter{
+       align-items: center;
+       width: 100%; 
+       min-width: 320px;
+       padding: 15px 20px 45px;
+       height: auto;
+       background-color: #fff;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+       border-radius: 1rem;
+       box-shadow: -5px -5px 250px 0 rgba(6, 81, 118, 0.323) inset;
+       backdrop-filter: blur(21px);
+   }
+   .mobile{
+       display: flex;
+       justify-content: space-between;
+       gap: 265px;
+       font-size: 18px;
+       font-weight: 700;
+       margin-bottom: 40px;
+   }
+   .title{
+       text-align: center;
+       font-size: 2rem;
+   }
+   .result{
+      align-self: start;
+     margin-left: 4rem;
+       
+
+   }
+   .result-heading{
+       color: rgba(36, 100, 113, 0.619);
+       font-size: 1.5rem;
+       font-weight: 200;
+   }
+   .celsius-value{
+       border-bottom: 2px solid #ccc;
+       padding: 10px;
+       transition: all .45s ease;
+   }
+   .degree-type{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 2.2rem;
+   }
+   .degree-field{
+       display: flex;
+       flex-direction: column;
+       width: 46%;
+   }
+   label{
+       color: #d7c8c8;
+       font-size: 1.2rem;
+       margin-bottom: 5px;
+   }
+   input, select{
+       background: transparent;
+       border: none;
+       outline: none;
+       border-bottom: 2px solid #ccc;
+       padding: 8px;
+       margin-bottom: 15px;
+   }
+   input:focus{
+       border: 1px solid #ccc;
+   }
+   option{
+       background: #d7c8c8;
+       color: #f6f6f6 ;
+   }
+   .temp-field{
+       display: flex;
+       flex-direction: column;
+   }
+   button{
+       border: none;
+       outline: none;
+       /* border-radius: 0.5rem; */
+       width: 410px;
+       height: 60px;
+       border-radius: 1rem;
+       /* background-color: aqua; */
+       background: linear-gradient(to bottom, #1b6780, #249f6e);
+       font-size: 22px;
+       color: white;
+       transition: all .3s ease-in;
+       text-transform: uppercase;
+       
+   }
+   .btn:hover{
+       background: linear-gradient(to bottom, #2b5766, #397e62) ;
+   }
